@@ -1,1 +1,1 @@
-# Weight-and-Mass
+This question determined an objects mass. If the object is over 1000 newtons, the object is too heavy. If the object is less than 10 Newtons, then the object is too light. This answers question 6 for the chapter 4 qeustions.
