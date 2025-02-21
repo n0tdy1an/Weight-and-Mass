@@ -4,12 +4,18 @@ using namespace std;
 
 int main()
 {
-    float weight;
-    float mass;
-    float gravity = 9.8;
-    weight = mass * gravity;
-    if ("The object weighs more than 1,000 newtons, then the object is too heavy.");
-    if ("The object weighs less than 10 newtons, then the object is too light");
-    cout << weight<< "Newtons"<<endl;
-    return 0;
+   float weight;
+   float mass;
+   cout << "Enter mass here" << endl;
+    cin>>mass;
+    weight = mass * 9.8;
+    if (weight > 1000)
+    cout << " The object is too heavy" << endl;
+    if (weight < 10)
+    cout << " The object is too light " << endl;
+    weight = mass * 9.8;
+    cout<<weight<< "Newtons"<< endl;
+
+   return 0;
 }
+
